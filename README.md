@@ -16,6 +16,7 @@ conda activate test1_env
 pip install pyvista[all]
 pip install pandas
 pip install openpyxl
+pip install psycopg2
 ```
 
 #### 1. Find Volume
@@ -54,6 +55,9 @@ Remarks:
 - a.ply files with only points will give error and not calculated. These files are handled separately.
 - density_edit.xlsx is the file that group all densities required.
 
-
+### Update Weight and Volume in Database
+```
+python update_database.py
+```
 
 
