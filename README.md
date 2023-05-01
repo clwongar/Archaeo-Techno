@@ -56,6 +56,13 @@ Remarks:
 - density_edit.xlsx is the file that group all densities required.
 
 ### Update Weight and Volume in Database
+This code update weight and volume of specific directory back to postgres database.
+default excel path 'update_info.xlsx'
+
+Sample file:
+
+<img width="284" alt="image" src="https://user-images.githubusercontent.com/61493193/235480116-90350b5d-4ff2-420f-b907-30dd78d3e642.png">
+
 ```
 python update_database.py
 ```
